@@ -4,9 +4,6 @@ $ErrorActionPreference = "Continue"
 
 Start-Transcript -path C:\temp\PrimoErrorLog.txt -append
 
-
-
-
 $PrimoFolder = "C:\Primo"
 $PrimoFolderContent = $PrimoFolder + "\*"
 $itemType = "Directory"
