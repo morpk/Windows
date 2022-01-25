@@ -5,7 +5,7 @@ $ErrorActionPreference = "Continue"
 Start-Transcript -path C:\temp\PrimoErrorLog.txt -append
 
 $PrimoFolder = "C:\Primo"
-$PrimoFolderContent = $PrimoFolder + "\*"
+
 $itemType = "Directory"
 $writeEmptyLine = "`n"
 $writeSeperator = " - "
@@ -14,7 +14,7 @@ $foregroundColor1 = "Yellow"
 $foregroundColor2 = "Red"
 
 $PrimoTempFolder = "C:\temp\Primo"
-$PrimoTempFolderContent = $PrimoFolder + "\*"
+
 $itemType = "Directory"
 $writeEmptyLine = "`n"
 $writeSeperator = " - "
